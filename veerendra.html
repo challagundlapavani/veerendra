@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Happy Birthday My Love</title>
+  <style>
+    body {
+      background: #000;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      flex-direction: column;
+      color: #fff;
+      font-family: 'Courier New', cursive;
+    }
+
+    h1 {
+      font-size: 3em;
+      color: #ff4d6d;
+      text-shadow: 0 0 10px #ff4d6d, 0 0 20px #ff99ac, 0 0 40px #ff4d6d;
+      animation: glow 2s infinite alternate;
+    }
+
+    p {
+      font-size: 1.5em;
+      margin-top: 20px;
+      color: #fff;
+      text-align: center;
+      line-height: 1.6;
+    }
+
+    @keyframes glow {
+      from {
+        text-shadow: 0 0 10px #ff4d6d, 0 0 20px #ff99ac;
+      }
+      to {
+        text-shadow: 0 0 20px #ff99ac, 0 0 40px #ff4d6d, 0 0 60px #ff1a4d;
+      }
+    }
+
+    .heart {
+      color: red;
+      font-size: 3em;
+      animation: beat 1s infinite;
+    }
+
+    @keyframes beat {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.3); }
+    }
+  </style>
+</head>
+<body>
+  <h1>❤ Happy Birthday My Love ❤</h1>
+  <p>
+    Today the universe gifted me YOU again 💫<br>
+    You’re not just my lover, you’re my forever reason to smile 💕<br>
+    Wishing you endless happiness and love 🎂✨
+  </p>
+  <div class="heart">❤</div>
+</body>
+</html>
